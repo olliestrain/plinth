@@ -1,0 +1,16 @@
+{
+  "name": "rowan-hub-server",
+  "version": "1.0.0",
+  "description": "Rowan hub: accounts, e-mail verification, leaderboard and backup for the Rowan gym app",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.0"
+  }
+}

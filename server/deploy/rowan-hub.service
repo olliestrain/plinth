@@ -1,0 +1,19 @@
+[Unit]
+Description=Rowan Rowan hub (accounts, leaderboard, backup)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/rowan-server
+EnvironmentFile=/home/pi/rowan-server/.env
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node server.js
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
