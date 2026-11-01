@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Cadence</string>
+    <string name="app_name">Plinth</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="delete">Delete</string>
@@ -57,8 +57,6 @@
     <string name="starter_a">Workout A</string>
     <string name="starter_b">Workout B</string>
     <string name="wiz_lets_go">Begin</string>
-    <string name="home_hello">Welcome back, %1$s</string>
-    <string name="home_hello_anon">Welcome back</string>
     <string name="home_today">Today</string>
     <string name="home_in_progress">Workout in progress</string>
     <string name="home_done_today">Completed today</string>
@@ -69,14 +67,13 @@
     <string name="home_free_day">Nothing planned</string>
     <string name="home_free_sub">Plan it in the calendar, or just start.</string>
     <string name="home_this_week">This week</string>
-    <string name="home_of_goal">of %1$d planned</string>
     <string name="home_body_weight">Body weight</string>
     <string name="home_log_weight">Log weight</string>
     <string name="home_volume_7d">Volume · 7 days</string>
     <string name="home_consistency">Your consistency</string>
     <string name="home_workouts_n">%1$d workouts</string>
     <string name="update_available">A new update is available</string>
-    <string name="update_version">Cadence %1$s</string>
+    <string name="update_version">Plinth %1$s</string>
     <string name="update_get">Get</string>
     <string name="backup_due_title">Time to back up</string>
     <string name="backup_never">You never exported a backup.</string>
@@ -128,8 +125,6 @@
     <string name="wk_session_note">Workout note</string>
     <string name="wk_session_note_hint">How did it go?</string>
     <string name="wk_rest">Rest</string>
-    <string name="wk_finish">Finish &amp; save</string>
-    <string name="wk_save_changes">Save changes</string>
     <string name="wk_nothing">Check at least one set first.</string>
     <string name="wk_last_time">Last · %1$s · %2$s</string>
     <string name="wk_first_time">No previous record.</string>
@@ -215,7 +210,7 @@
     <string name="backup_export">Export</string>
     <string name="backup_import">Import</string>
     <string name="backup_snapshots">Automatic snapshots</string>
-    <string name="set_snapshots_hint">Cadence quietly saves a rolling copy of everything on this phone. Still, export a backup now and then and keep it somewhere safe.</string>
+    <string name="set_snapshots_hint">Plinth quietly saves a rolling copy of everything on this phone. Still, export a backup now and then and keep it somewhere safe.</string>
     <string name="set_reminder">Remind me to back up</string>
     <string name="set_days_n">%1$d days</string>
     <string name="backup_exported">Backup exported</string>
@@ -224,14 +219,14 @@
     <string name="import_warning">This replaces ALL data on this phone with the backup. A safety copy of the current data is taken first.</string>
     <string name="import_confirm">Restore</string>
     <string name="import_done">Backup restored</string>
-    <string name="import_invalid">That file is not a valid Cadence backup</string>
+    <string name="import_invalid">That file is not a valid Plinth backup</string>
     <string name="snap_none">No snapshots yet.</string>
     <string name="snap_restore">Restore</string>
     <string name="set_updates">Updates</string>
     <string name="set_version">Version %1$s</string>
     <string name="set_check_updates">Check for updates</string>
     <string name="set_up_to_date">You are up to date</string>
-    <string name="set_updates_unconfigured">Updates are not configured yet: set rowan.githubRepo in gradle.properties.</string>
+    <string name="set_updates_unconfigured">Updates are not configured yet: set plinth.githubRepo in gradle.properties.</string>
     <string name="notes_title">Notes</string>
     <string name="notes_active">Notes</string>
     <string name="notes_archive">Archive</string>
@@ -249,6 +244,17 @@
     <string name="profile_local_note">Stored on this device only.</string>
     <string name="profile_time">Training time</string>
     <string name="unit_weeks">wk</string>
+    <string name="home_resume">Resume session</string>
+    <string name="home_sets_logged">%1$d sets logged</string>
+    <string name="home_week_progress">%1$d of %2$d sessions</string>
+    <string name="wk_exercise_n">Exercise %1$d of %2$d</string>
+    <string name="wk_next">Next: %1$s</string>
+    <string name="wk_exercises">Exercises</string>
+    <string name="wk_workout">Workout</string>
+    <string name="wk_set">Set</string>
+    <string name="wk_skip">Skip</string>
+    <string name="wk_finish_short">Finish</string>
+    <string name="wk_empty_sub">Add an exercise to begin.</string>
     <plurals name="exercises_count">
         <item quantity="one">%d exercise</item>
         <item quantity="other">%d exercises</item>

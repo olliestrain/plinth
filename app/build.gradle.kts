@@ -11,18 +11,18 @@ val keystoreProps = Properties().apply {
     val f = rootProject.file("keystore.properties")
     if (f.exists()) f.inputStream().use { load(it) }
 }
-val githubRepo = providers.gradleProperty("cadence.githubRepo").get()
+val githubRepo = providers.gradleProperty("plinth.githubRepo").get()
 
 android {
-    namespace = "app.cadence.gym"
+    namespace = "app.plinth.gym"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "app.cadence.gym"
+        applicationId = "app.plinth.gym"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.3.0"
         buildConfigField("String", "GITHUB_REPO", "\"$githubRepo\"")
         androidResources { localeFilters += listOf("en", "it") }
     }

@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Cadence"
+rootProject.name = "Plinth"
 include(":app")

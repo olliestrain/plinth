@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Cadence</string>
+    <string name="app_name">Plinth</string>
     <string name="cancel">Annulla</string>
     <string name="save">Salva</string>
     <string name="delete">Elimina</string>
@@ -57,8 +57,6 @@
     <string name="starter_a">Scheda A</string>
     <string name="starter_b">Scheda B</string>
     <string name="wiz_lets_go">Inizia</string>
-    <string name="home_hello">Bentornato, %1$s</string>
-    <string name="home_hello_anon">Bentornato</string>
     <string name="home_today">Oggi</string>
     <string name="home_in_progress">Allenamento in corso</string>
     <string name="home_done_today">Completato oggi</string>
@@ -69,14 +67,13 @@
     <string name="home_free_day">Niente in programma</string>
     <string name="home_free_sub">Pianificalo nel calendario o inizia subito.</string>
     <string name="home_this_week">Questa settimana</string>
-    <string name="home_of_goal">su %1$d previsti</string>
     <string name="home_body_weight">Peso corporeo</string>
     <string name="home_log_weight">Registra peso</string>
     <string name="home_volume_7d">Volume · 7 giorni</string>
     <string name="home_consistency">La tua costanza</string>
     <string name="home_workouts_n">%1$d allenamenti</string>
     <string name="update_available">È disponibile un nuovo aggiornamento</string>
-    <string name="update_version">Cadence %1$s</string>
+    <string name="update_version">Plinth %1$s</string>
     <string name="update_get">Scarica</string>
     <string name="backup_due_title">È ora del backup</string>
     <string name="backup_never">Non hai mai esportato un backup.</string>
@@ -128,8 +125,6 @@
     <string name="wk_session_note">Nota allenamento</string>
     <string name="wk_session_note_hint">Com\'è andata?</string>
     <string name="wk_rest">Recupero</string>
-    <string name="wk_finish">Termina e salva</string>
-    <string name="wk_save_changes">Salva modifiche</string>
     <string name="wk_nothing">Spunta almeno una serie.</string>
     <string name="wk_last_time">Ultima · %1$s · %2$s</string>
     <string name="wk_first_time">Nessun dato precedente.</string>
@@ -215,7 +210,7 @@
     <string name="backup_export">Esporta</string>
     <string name="backup_import">Importa</string>
     <string name="backup_snapshots">Copie automatiche</string>
-    <string name="set_snapshots_hint">Cadence salva in silenzio una copia progressiva di tutto su questo telefono. Esporta comunque un backup ogni tanto e conservalo al sicuro.</string>
+    <string name="set_snapshots_hint">Plinth salva in silenzio una copia progressiva di tutto su questo telefono. Esporta comunque un backup ogni tanto e conservalo al sicuro.</string>
     <string name="set_reminder">Ricordami di fare il backup</string>
     <string name="set_days_n">%1$d giorni</string>
     <string name="backup_exported">Backup esportato</string>
@@ -224,14 +219,14 @@
     <string name="import_warning">Sostituisce TUTTI i dati di questo telefono con il backup. Prima viene creata una copia di sicurezza dei dati attuali.</string>
     <string name="import_confirm">Ripristina</string>
     <string name="import_done">Backup ripristinato</string>
-    <string name="import_invalid">Quel file non è un backup Cadence valido</string>
+    <string name="import_invalid">Quel file non è un backup Plinth valido</string>
     <string name="snap_none">Ancora nessuna copia.</string>
     <string name="snap_restore">Ripristina</string>
     <string name="set_updates">Aggiornamenti</string>
     <string name="set_version">Versione %1$s</string>
     <string name="set_check_updates">Cerca aggiornamenti</string>
     <string name="set_up_to_date">Sei aggiornato</string>
-    <string name="set_updates_unconfigured">Aggiornamenti non configurati: imposta rowan.githubRepo in gradle.properties.</string>
+    <string name="set_updates_unconfigured">Aggiornamenti non configurati: imposta plinth.githubRepo in gradle.properties.</string>
     <string name="notes_title">Note</string>
     <string name="notes_active">Note</string>
     <string name="notes_archive">Archivio</string>
@@ -249,6 +244,17 @@
     <string name="profile_local_note">Salvato solo su questo dispositivo.</string>
     <string name="profile_time">Tempo di allenamento</string>
     <string name="unit_weeks">sett.</string>
+    <string name="home_resume">Riprendi allenamento</string>
+    <string name="home_sets_logged">%1$d serie registrate</string>
+    <string name="home_week_progress">%1$d di %2$d allenamenti</string>
+    <string name="wk_exercise_n">Esercizio %1$d di %2$d</string>
+    <string name="wk_next">Prossimo: %1$s</string>
+    <string name="wk_exercises">Esercizi</string>
+    <string name="wk_workout">Allenamento</string>
+    <string name="wk_set">Serie</string>
+    <string name="wk_skip">Salta</string>
+    <string name="wk_finish_short">Termina</string>
+    <string name="wk_empty_sub">Aggiungi un esercizio per iniziare.</string>
     <plurals name="exercises_count">
         <item quantity="one">%d esercizio</item>
         <item quantity="other">%d esercizi</item>
