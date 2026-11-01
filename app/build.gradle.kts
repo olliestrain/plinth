@@ -11,21 +11,19 @@ val keystoreProps = Properties().apply {
     val f = rootProject.file("keystore.properties")
     if (f.exists()) f.inputStream().use { load(it) }
 }
-val githubRepo = providers.gradleProperty("rowan.githubRepo").get()
-val hubUrl = providers.gradleProperty("rowan.hubUrl").get()
+val githubRepo = providers.gradleProperty("cadence.githubRepo").get()
 
 android {
-    namespace = "app.rowan.gym"
+    namespace = "app.cadence.gym"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "app.rowan.gym"
+        applicationId = "app.cadence.gym"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.2.0"
         buildConfigField("String", "GITHUB_REPO", "\"$githubRepo\"")
-        buildConfigField("String", "HUB_URL", "\"$hubUrl\"")
         androidResources { localeFilters += listOf("en", "it") }
     }
 
